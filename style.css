@@ -1,0 +1,264 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 256B12;
+    color:  black;
+}
+header, footer {
+    background-color: #256B12;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo1{
+    width: 60px;
+    height:   49px;
+    float: left;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    bottom: 0%;
+}
+
+nav{
+    list-style: none;
+    padding: 0;
+    display: inline;
+    font-size: 25px;
+    justify-content: space-around;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+nav a:hover{
+    transition: 1.5s;
+    box-shadow: 5px 5px 5px 0  wheat;
+    background-color: gray;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    background-image: url('sushi.jpg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.info1{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+}
+
+info2{
+    position: absolute;
+    display: flex;
+    width: 70%;
+    left: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.menu1{
+    text-decoration: none;
+    color: white;
+    border: 10px solid #FF962E;
+    background-color: #FF962E;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.menu2{
+    display: flex;
+    justify-content: center;
+    background-color: #256B12;
+    color: white;
+}
+
+.uhag{
+    display: flex;
+    position: relative;
+}
+
+.call1{
+    text-decoration: none;
+    color: white;
+    border: 10px solid #FF962E;
+    background-color: #FF962E;
+    font-size: 30px;
+}
+
+.menu1:hover{
+    transition: 2s;
+    background-color: gray;
+    border: 10px solid gray;
+    box-shadow: 5px 5px 5px 0  grey;
+}
+
+.call1:hover{
+    transition: 2s;
+    background-color: gray;
+    border: 10px solid gray;
+    color: gold;
+    box-shadow: 5px 5px 5px 0  grey;
+}
+
+.zamovyty{
+    border: 10px solid #FF962E;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    background-color: #FF962E;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.zamovyty:hover{
+    transition: 2s;
+    background-color: gray;
+    border: 10px solid gray;
+    color: gold;
+}
+
+
+.domenu{
+    margin-top: 20px;
+}
+
+.filadelfia{
+    position: relative;
+    display: flex;
+    width: 100%;
+    left:0px;
+    top: 0px;
+}
+
+.sushi-filadelf{
+    width: 300px;
+    height: 200px;
+    border: 5px solid #256B12;
+    margin: 30px;
+}
+
+.sushi-losos{
+    width: 300px;
+    height: 200px;
+    border: 5px solid #256B12;
+    margin: 30px;
+}
+
+.losos{
+    position: relative;
+    display: flex;
+    width: 100%;
+    left:0px;
+    top: 0px;
+}
+
+.sushi-boksn1{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #256B12;
+    margin: 30px;
+}
+
+.boksn1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    left:0px;
+    top: 0px;
+}
+
+.sushi-boksn2{
+    width: 300px;
+    height: 290px;
+    border: 5px solid #256B12;
+    margin: 30px;
+}
+
+.boksn2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    left:0px;
+    top: 0px;
+}
+
+.promo {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    background: #ffcc00;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    width: 29%;
+}
+.sushi-item:hover {
+    background-color: #ff9966;
+}
+.sushi-item::before {
+    content: '\1F363';
+    margin-right: 5px;
+}
+.sushi-item::after {
+    content: '\2728';
+    margin-left: 5px;
+}
+
+.logo{
+    display: flex;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: #256B12;
+}
+
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+} 
+
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: white;
+}
+
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+
+.logo-img{
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    width: 15%;
+}
