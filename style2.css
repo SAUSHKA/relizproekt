@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 256B12;
+    color:  black; 
+}
+header, footer {
+    background-color: #256B12;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.logovidguky{
+    width: 150px;
+    height:   108px;
+    float: left;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    bottom: 0%;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.golovna{
+    text-decoration: none;
+    border: 5px solid #FF962E;
+    color: white;
+    background-color: #FF962E;
+    font-size: 35px;
+    padding: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.golovna:hover{
+    transition: 3s;
+    background-color: grey;
+    border: 5px solid grey;
+    color: gold;
+    box-shadow: 5px 5px 5px 0  darkmagenta;
+}
+
+.vid{
+    display: flex;
+    font-size: 25px;
+    color: black;
+    opacity: 0.5;
+    border:3px solid #256B12;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.vid:hover{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: 1.5s;
+    background-image: linear-gradient(blue, yellow);
+}
+
+.zyalatsashche{
+    text-align: center;
+}
