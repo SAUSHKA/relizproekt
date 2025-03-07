@@ -13,7 +13,7 @@ header, footer {
     background-color: #256B12;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .logo1{
@@ -30,7 +30,7 @@ nav{
     list-style: none;
     padding: 0;
     display: inline;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: space-around;
     margin-left: 35px;
     margin-right: 35px;
